@@ -1,109 +1,405 @@
 {
-  "transactions": [
+  "rooms": [
     {
-      "id": 1,
-      "date": "2019-12-01",
-      "description": "Paycheck from Bob's Burgers",
-      "category": "Income",
-      "amount": 1000
+      "id": "101",
+      "type": "Deluxe Double",
+      "pricePerNight": 2000,
+      "amenities": [
+        "King bed",
+        "Ocean view",
+        "Mini-bar",
+        "Smart TV"
+      ],
+      "image": "room1.jpeg"
     },
     {
-      "id": 2,
-      "date": "2019-12-01",
-      "description": "South by Southwest Quinoa Bowl at Fresh & Co",
-      "category": "Food",
-      "amount": -10.55
+      "id": "202",
+      "type": "Executive Suite",
+      "pricePerNight": 4000,
+      "amenities": [
+        "Separate living area",
+        "Jacuzzi",
+        "Balcony",
+        "Kitchenette"
+      ],
+      "image": "room2.jpeg"
     },
     {
-      "id": 3,
-      "date": "2019-12-02",
-      "description": "South by Southwest Quinoa Bowl at Fresh & Co",
-      "category": "Food",
-      "amount": -10.55
+      "id": "305",
+      "type": "Family Room",
+      "pricePerNight": 3000,
+      "amenities": [
+        "Two Queen beds",
+        "Kids' play area",
+        "Microwave",
+        "DVD player"
+      ],
+      "image": "room3.jpeg"
     },
     {
-      "id": 4,
-      "date": "2019-12-04",
-      "description": "Sunglasses, Urban Outfitters",
-      "category": "Fashion",
-      "amount": -24.99
+      "id": "103",
+      "type": "Standard Single",
+      "pricePerNight": 1500,
+      "amenities": [
+        "Queen bed",
+        "City view",
+        "Work desk",
+        "Coffee maker"
+      ],
+      "image": "room4.jpeg"
     },
     {
-      "id": 5,
-      "date": "2019-12-06",
-      "description": "Venmo, Alice Pays you for Burrito",
-      "category": "Food",
-      "amount": 8.75
+      "id": "401",
+      "type": "Presidential Suite",
+      "pricePerNight": 8000,
+      "amenities": [
+        "Private pool",
+        "Panoramic views",
+        "Personal butler",
+        "Home theater"
+      ],
+      "image": "room5.jpeg"
     },
     {
-      "id": 6,
-      "date": "2019-12-06",
-      "description": "Chipotle",
-      "category": "Food",
-      "amount": -17.59
+      "id": "106",
+      "type": "Accessible Room",
+      "pricePerNight": 2500,
+      "amenities": [
+        "Wheelchair access",
+        "Roll-in shower",
+        "Lowered fixtures",
+        "Emergency call system"
+      ],
+      "image": "room6.jpeg"
+    }
+  ],
+  "room-reservations": [
+    {
+      "id": "RES-2301",
+      "name": "John Smith",
+      "email": "johnsmith@gmail.com",
+      "phone": "0700777333",
+      "checkIn": "2023-08-15",
+      "checkOut": "2023-08-20",
+      "price": 1999.95
     },
     {
-      "id": 7,
-      "date": "2019-12-07",
-      "description": "Birthday Check from Grandma",
-      "category": "Gift",
-      "amount": 50
+      "id": "RES-2302",
+      "name": "Emily Johnson",
+      "email": "emilyjohnson@gmail.com",
+      "phone": "0766444222",
+      "checkIn": "2023-08-18",
+      "checkOut": "2023-08-22",
+      "price": 799.96
     },
     {
-      "id": 8,
-      "date": "2019-12-09",
-      "description": "Lyft Ride",
-      "category": "Transportation",
-      "amount": -13.25
+      "id": "RES-2303",
+      "name": "Ahmed Al-Farsi",
+      "email": "ahmed@gmail.com",
+      "phone": "0755333111",
+      "checkIn": "2023-09-01",
+      "checkOut": "2023-09-05",
+      "price": 1199.96
     },
     {
-      "id": 9,
-      "date": "2019-12-11",
-      "description": "Paycheck from Bob's Burgers",
-      "category": "Income",
-      "amount": 1000
+      "id": "RES-2304",
+      "name": "Maria Gonzalez",
+      "email": "maria@gmail.com",
+      "phone": "0600444666",
+      "checkIn": "2023-08-25",
+      "checkOut": "2023-08-27",
+      "price": 299.98
     },
     {
-      "id": 10,
-      "date": "2019-12-16",
-      "description": "Tickets, Flatiron Multiplex Cinemas",
-      "category": "Entertainment",
-      "amount": -24
+      "id": "RES-2305",
+      "name": "Li Wei",
+      "email": "liwei@gmail.com",
+      "phone": "0300999555",
+      "checkIn": "2023-12-24",
+      "checkOut": "2023-12-31",
+      "price": 6299.93
+    }
+  ],
+  "edibles": [
+    {
+      "id": "FD-101",
+      "name": "Continental Breakfast",
+      "category": "breakfast",
+      "price": 1800,
+      "image": "meal1.jpeg",
+      "isParticipating": false
     },
     {
-      "id": 11,
-      "date": "2019-12-16",
-      "description": "MTA Vending Machine: MetroCard",
-      "category": "Transportation",
-      "amount": -116.39
+      "id": "FD-205",
+      "name": "Grilled Salmon Dinner",
+      "category": "dinner",
+      "price": 4200,
+      "image": "meal2.jpeg"
     },
     {
-      "id": 12,
-      "date": "2019-12-17",
-      "description": "Venmo, Pay Roommate for Rent",
-      "category": "Housing",
-      "amount": -975
+      "id": "FD-305",
+      "name": "Club Sandwich Platter",
+      "category": "lunch",
+      "price": 2200,
+      "image": "meal3.jpeg"
     },
     {
-      "date": "2024-08-08",
-      "description": "Trip",
-      "category": "Travel",
-      "amount": "2000",
-      "id": 13
+      "id": "FD-410",
+      "name": "Vegetarian Buddha Bowl",
+      "category": "vegan",
+      "price": 1900,
+      "image": "meal4.jpeg"
     },
     {
-      "date": "2024-08-08",
-      "description": "movies",
-      "category": "entertainment",
-      "amount": "1000",
-      "id": 14
+      "id": "FD-515",
+      "name": "Chocolate Fondant Dessert",
+      "category": "dessert",
+      "price": 1400,
+      "image": "meal5.jpeg"
+    }
+  ],
+  "parlors": [
+    {
+      "id": "SPA-01",
+      "name": "Hot Stone Massage",
+      "duration": 90,
+      "price": 15000,
+      "image": "spa1.jpeg",
+      "isParticipating": false
     },
     {
-      "date": "2024-08-08",
-      "description": "birthday",
-      "category": "entertainment",
-      "amount": "1000",
-      "id": 15
+      "id": "SPA-02",
+      "name": "Detox Facial Treatment",
+      "duration": 60,
+      "price": 9500,
+      "image": "spa2.jpeg"
+    },
+    {
+      "id": "SPA-03",
+      "name": "Couples Relaxation Package",
+      "duration": 120,
+      "price": 25000,
+      "image": "spa3.jpeg",
+      "isParticipating": false
+    },
+    {
+      "id": "SPA-04",
+      "name": "Aromatherapy Session",
+      "duration": 45,
+      "price": 8500,
+      "image": "spa4.jpeg"
+    },
+    {
+      "id": "SPA-05",
+      "name": "Foot Reflexology",
+      "duration": 50,
+      "price": 7500,
+      "image": "spa5.jpeg"
+    }
+  ],
+  "sports": [
+    {
+      "id": "SPT-01",
+      "name": "Tennis Court Rental",
+      "type": "court sports",
+      "equipment": [
+        "Rackets",
+        "Balls"
+      ],
+      "hourlyRate": 3500,
+      "image": "sport1.jpeg"
+    },
+    {
+      "id": "SPT-02",
+      "name": "Guided Snorkeling",
+      "type": "water sports",
+      "equipment": [
+        "Mask",
+        "Snorkel",
+        "Fins"
+      ],
+      "hourlyRate": 6500,
+      "image": "sport2.jpeg"
+    },
+    {
+      "id": "SPT-03",
+      "name": "9-Hole Golf Course",
+      "type": "golf",
+      "equipment": [
+        "Clubs",
+        "Balls",
+        "Cart"
+      ],
+      "hourlyRate": 5000,
+      "image": "sport3.jpeg"
+    },
+    {
+      "id": "SPT-04",
+      "name": "Morning Yoga Session",
+      "type": "mind-body",
+      "equipment": [
+        "Mats",
+        "Blocks",
+        "Straps"
+      ],
+      "hourlyRate": 2500,
+      "image": "sport4.jpeg"
+    },
+    {
+      "id": "SPT-05",
+      "name": "Kayaking Adventure",
+      "type": "water sports",
+      "equipment": [
+        "Kayak",
+        "Paddle",
+        "Life Jacket"
+      ],
+      "hourlyRate": 4500,
+      "image": "sport5.jpeg"
+    }
+  ],
+  "workouts": [
+    {
+      "id": "GYM-01",
+      "name": "Treadmill",
+      "type": "cardio",
+      "quantity": 5,
+      "image": "gym1.jpeg",
+      "isParticipating": false
+    },
+    {
+      "id": "GYM-02",
+      "name": "Weight Station",
+      "type": "strength",
+      "quantity": 3,
+      "image": "gym2.jpeg"
+    },
+    {
+      "id": "GYM-03",
+      "name": "Elliptical Trainer",
+      "type": "cardio",
+      "quantity": 4,
+      "image": "gym3.jpeg"
+    },
+    {
+      "id": "GYM-04",
+      "name": "Rowing Machine",
+      "type": "cardio",
+      "quantity": 2,
+      "image": "gym4.jpeg"
+    },
+    {
+      "id": "GYM-05",
+      "name": "Spin Bike",
+      "type": "cardio",
+      "quantity": 6,
+      "image": "gym5.jpeg"
+    }
+  ],
+  "events": [
+    {
+      "id": "EVT-1001",
+      "title": "Tech Conference 2025",
+      "date": "2025-04-15",
+      "time": "11:00AM",
+      "location": "Grand Ballroom",
+      "description": "Get to gain valuable insights of the tech industry and network with fellow tech enthusiasts!",
+      "image": "tech.jpeg"
+    },
+    {
+      "id": "EVT-1002",
+      "title": "Barry-Iris Wedding",
+      "date": "2025-05-07",
+      "time": "10:00AM",
+      "location": "Beach Garden",
+      "description": "Welcome all as we gather for the union of Barry and Iris in Holy Matrimony.",
+      "image": "wed.jpeg",
+      "isParticipating": false
+    },
+    {
+      "id": "EVT-1003",
+      "title": "Summer Music Festival",
+      "date": "2025-04-30",
+      "time": "2:00PM",
+      "location": "Poolside Arena",
+      "description": "Expect pure music and vibes for this festival with surprise artists performing!",
+      "image": "fest.jpeg"
+    },
+    {
+      "id": "EVT-1004",
+      "title": "Product Launch Night",
+      "date": "2025-05-10",
+      "time": "7:00PM",
+      "location": "Sky Lounge",
+      "description": "Technicaly company will launch its new game changer tech product!",
+      "image": "launch.jpeg"
+    },
+    {
+      "id": "EVT-1005",
+      "title": "Golden Anniversary Celebration",
+      "date": "2025-05-02",
+      "time": "4:00PM",
+      "location": "Crystal Hall",
+      "description": "Tag along and join Technicaly company in celebrating 50 years of their existence in the tech industry!!",
+      "image": "golden.jpeg"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "REV-001",
+      "name": "Sarah Thompson",
+      "room": 202,
+      "rating": 4.5,
+      "comment": "Excellent service but spa was crowded",
+      "date": "2023-08-21"
+    },
+    {
+      "id": "REV-002",
+      "name": "Michael Chen",
+      "room": 101,
+      "rating": 5,
+      "comment": "Perfect getaway with amazing ocean views!",
+      "date": "2023-07-15"
+    },
+    {
+      "id": "REV-003",
+      "name": "Olivia Brown",
+      "room": 305,
+      "rating": 4.8,
+      "comment": "Fantastic family-friendly amenities and helpful staff",
+      "date": "2023-08-10"
+    },
+    {
+      "id": "REV-004",
+      "name": "Raj Patel",
+      "room": 103,
+      "rating": 4,
+      "comment": "Great value for money but gym was crowded",
+      "date": "2023-08-18"
+    },
+    {
+      "id": "REV-005",
+      "name": "Sophie Martin",
+      "room": 401,
+      "rating": 4.9,
+      "comment": "Luxury redefined! Every detail was perfect",
+      "date": "2023-01-05"
+    },
+    {
+      "id": "01fe",
+      "name": "tyrone",
+      "room": "106",
+      "rating": "5",
+      "comment": "nice",
+      "date": "2025-04-07"
+    },
+    {
+      "id": "f01e",
+      "name": "Ty",
+      "room": "205",
+      "rating": "4",
+      "comment": "excellent",
+      "date": "2025-04-07"
     }
   ]
 }
